@@ -6,7 +6,6 @@
 //  Copyright © 2015 erica. All rights reserved.
 //
 
-#import <React/RCTBridgeModule.h>
 #import <React/RCTEventEmitter.h>
 
 #define RCTQQShareTypeNews @"news"
@@ -21,6 +20,6 @@
 #define RCTQQShareWebpageUrl @"webpageUrl"
 #define RCTQQShareImageUrl @"imageUrl"
 
-@interface RCTQQAPI : RCTEventEmitter<RCTBridgeModule>
+@interface RCTQQAPI : RCTEventEmitter
 
 @end
